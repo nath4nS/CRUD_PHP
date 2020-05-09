@@ -24,7 +24,6 @@ if($id == '') {
 			."WHERE id = $id";
 }
 
-
 if(mysqli_query($conexao, $sql)) {
 	$mensagem = "Salvo com sucesso!";
 	$alert = "success";
