@@ -16,7 +16,7 @@ $query_veiculos = mysqli_query($conexao, $sql_veiculos);
 		</div>
 		<h2>
 			Listagem de Veículos
-			<small><span class="badge badge-info"><?php echo $query_veiculos->num_rows; ?> 	Veículos(s)</span></small>
+			<small><span class="badge badge-info"><?php echo $query_veiculos->num_rows; ?> 	veículo</span></small>
 		</h2>
 		<table class="table table-hover table-striped table-bordered">
 			<thead class="thead-dark">	

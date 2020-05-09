@@ -16,7 +16,7 @@ $query_servicos = mysqli_query($conexao, $sql_servicos);
 		</div>
 		<h2>
 			Serviços 
-			<small><span class="badge badge-info"><?php echo $query_servicos->num_rows; ?> Serviços realizados(s)</span></small>
+			<small><span class="badge badge-info"><?php echo $query_servicos->num_rows; ?> serviços realizados</span></small>
 		</h2>
 		<table class="table table-hover table-striped table-bordered">
 			<thead class="thead-dark">	

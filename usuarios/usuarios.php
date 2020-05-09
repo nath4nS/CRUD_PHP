@@ -16,7 +16,7 @@ $query_usuarios = mysqli_query($conexao, $sql_usuarios);
 		</div>
 		<h2>
 			Listagem de usuários
-			<small><span class="badge badge-info"><?php echo $query_usuarios->num_rows; ?> usuários(s)</span></small>
+			<small><span class="badge badge-info"><?php echo $query_usuarios->num_rows; ?> usuário</span></small>
 		</h2>
 		<table class="table table-hover table-striped table-bordered">
 			<thead class="thead-dark">	
